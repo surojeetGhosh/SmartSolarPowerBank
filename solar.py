@@ -26,7 +26,7 @@ abi = contract['abi']
 address = contract['address']
 caller = contract['owner']
 private = contract['private']
-w3 = Web3(Web3.HTTPProvider('xxxxxxxxxxx'))
+w3 = Web3(Web3.HTTPProvider('YOUR HTTP PROVIDER URL'))
 MachineCode = 1
 state = False
 ser = serial.Serial('/dev/ttyUSB0', 9600, timeout = 1)
