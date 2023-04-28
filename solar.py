@@ -26,7 +26,7 @@ abi = contract['abi']
 address = contract['address']
 caller = contract['owner']
 private = contract['private']
-w3 = Web3(Web3.HTTPProvider('https://eth-sepolia.g.alchemy.com/v2/eeDrQCWpXpqdm5gsC8Ccyp2I3wpQwmw-'))
+w3 = Web3(Web3.HTTPProvider('xxxxxxxxxxx'))
 MachineCode = 1
 state = False
 ser = serial.Serial('/dev/ttyUSB0', 9600, timeout = 1)
